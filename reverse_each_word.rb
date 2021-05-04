@@ -1,5 +1,7 @@
-def reverse_each_word(str)
-  str.each do |str|
-    puts "#{str}.reverse"
+sentence = "Hey there!"
+
+def reverse_each_word(sentence)
+  sentence.each do |sentence|
+    puts sentence.reverse
   end
 end
